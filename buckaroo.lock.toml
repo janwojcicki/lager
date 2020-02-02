@@ -1,0 +1,13 @@
+manifest = "3127a944144ae51e44005bbd80f813bbd4417bc0fd90733a42b42aee4ba904a0"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-hana"
+target = "//:hana"
+
+[lock."github.com/buckaroo-pm/boost-hana"]
+versions = [ "1.71.0" ]
+revision = "e106569d5d46c595af9011b4a1f0b6d10dfe468a"
+
+[lock."github.com/janwojcicki/immer"]
+versions = [ "branch=master" ]
+revision = "44fec9e3dc3d0234cb0d7e274c9d0d7955a656e6"

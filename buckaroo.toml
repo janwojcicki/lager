@@ -1,0 +1,9 @@
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-hana"
+version = "*"
+
+[[dependency]]
+package = "github.com/janwojcicki/immer"
+version = "*"
+
+target = [ "//:lager" ]
